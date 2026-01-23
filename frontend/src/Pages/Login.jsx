@@ -22,7 +22,7 @@ const Login = () => {
 
 		try {
 			const response = await axios.post(
-				'https://mern-registeration-wwwj.onrender.com',
+				'https://mern-registeration-wwwj.onrender.com/api/auth/login',
 				formData
 			);
 
